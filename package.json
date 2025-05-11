@@ -3,7 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server for the Jujutsu (jj) version control system",
-  "main": "build/index.js",
+  "bin": {
+    "jj-mcp-server": "build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
