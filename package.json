@@ -2,7 +2,7 @@
   "name": "jj-mcp-server",
   "type": "module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Model Context Protocol (MCP) server for the Jujutsu (jj) version control system",
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
